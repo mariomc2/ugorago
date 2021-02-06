@@ -7,14 +7,19 @@ https://docs.docker.com/compose/install/
 # Instructions:
 
 `cd Sites`
+
 `mkdir ugorago`
 
 https://docs.docker.com/compose/rails/
 
 `touch Dockerfile`
+
 `touch Gemfile`
+
 `touch Gemfile.lock`
+
 `touch entrypoint.sh`
+
 `touch docker-compose.yml`
 
 # Build the project
@@ -44,6 +49,8 @@ https://docs.docker.com/compose/rails/
 # Start/Stop/ReBuild
 
 `docker-compose up`
+
 `docker-compose down --build`
+
 `docker-compose up --build`
 
