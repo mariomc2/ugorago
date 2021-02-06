@@ -18,6 +18,9 @@ https://docs.docker.com/compose/rails/
 
 `touch Gemfile.lock`
 
+`touch yarn.lock`
+`touch package.json`
+
 `touch entrypoint.sh`
 
 `touch docker-compose.yml`
@@ -36,6 +39,10 @@ https://docs.docker.com/compose/rails/
 # Yarn
 
 ` docker-compose run web bundle exec rails webpacker:install`
+
+To Run Yarn
+
+`docker-compose run web yarn add bootstrap jquery popper.js`
 
 # Connect the database
 
