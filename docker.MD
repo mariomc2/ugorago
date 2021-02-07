@@ -50,6 +50,8 @@ To Run Yarn
 
 ## Create DB
 
+For a first time user please run the following code to create the database.
+
 `docker-compose run web rake db:create`
 
 
